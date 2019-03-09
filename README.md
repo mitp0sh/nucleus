@@ -4,6 +4,7 @@ published at EuroS&P 2017.
 Requirements:
   - libcapstone (tested with 3.0)
   - libbfd-multiarch
+  - LIEF (tested with 0.9.0)
 
 Platform:
   - Tested on Ubuntu 15.10 and 16.04
