@@ -1,6 +1,6 @@
 CXX=g++
 CXXFLAGS=-Wall -std=c++11 -O2 -DNDEBUG -fpermissive
-LDFLAGS=-lcapstone -lbfd-multiarch
+LDFLAGS=-lcapstone -lbfd-multiarch -LIEF
 
 SRC=$(wildcard *.cc)
 OBJ=$(patsubst %.cc, obj/%.o, $(SRC))
